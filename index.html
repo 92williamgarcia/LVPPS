@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PowerBox – Portable Power Supply</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f1a, #1b1b2f);
+      color: #ffffff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: #0a0a1a;
+      border-bottom: 2px solid #2f2f4f;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #00aaff;
+    }
+    .nav-links a {
+      color: #88cfff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+    }
+    .nav-links a:hover {
+      color: #ffffff;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(145deg, #121228, #1e1e3f);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #00ccff;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccccff;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      color: #00ccff;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid #2a2a4a;
+      border-radius: 15px;
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ccff88;
+    }
+    .button {
+      display: inline-block;
+      margin: 1rem auto;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      background: #00ccff;
+      color: #0f0f1a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #0099cc;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+      font-size: 0.9rem;
+      background-color: #0a0a1a;
+      border-top: 2px solid #2f2f4f;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PowerBox</h1>
+  <nav class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#video">Demo</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Next-Gen Portable Power</h2>
+  <p>Safer. Smarter. Built for the modern field tech. Engineered for freedom and efficiency on every jobsite.</p>
+</section>
+
+<section class="section" id="features">
+  <h3>Key Features</h3>
+  <div class="grid">
+    <div class="card"><strong>GFCI Protection:</strong> Self-testing with audible alerts.</div>
+    <div class="card"><strong>120V to 24VAC and 24VDC Output:</strong> Ideal for tools, tech & safety.</div>
+    <div class="card"><strong>Packout Shell:</strong> Impact-resistant and modular.</div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <h3>Gallery</h3>
+  <div class="grid">
+    <div class="card"><img src="images/powerbox_1.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_2.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_3.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_4.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_5.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_6.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_7.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+<div class="card"><img src="images/powerbox_8.jpeg" alt="PowerBox Photo" style="width:100%; border-radius:10px;"></div>
+  </div>
+</section>
+
+<section class="section" id="video">
+  <h3>Video Demo</h3>
+  <div style="position:relative;padding-bottom:56.25%;height:0;">
+    <iframe src="https://www.youtube.com/embed/CZqydf4HgZQ" frameborder="0" allowfullscreen 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:15px;"></iframe>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h3>Get in Touch</h3>
+  <p style="text-align:center;">Ready to order or want to learn more?</p>
+  <div style="text-align:center;">
+    <a href="https://westcoastconnectedinc.com/" class="button">Buy Now</a>
+    <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:67471b0f-855b-45b9-84fb-8221767ef417" target="_blank" class="button">View PDF Spec</a>
+    <a href="https://westcoastconnectedinc.com/" target="_blank" class="button">Our Electrical Company</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Will Garcia | PowerBox | West Coast Connected Inc.
+</footer>
+
+</body>
+</html>
